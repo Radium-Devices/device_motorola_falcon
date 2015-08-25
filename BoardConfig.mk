@@ -44,6 +44,7 @@ TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
 
 # Optimizations
 ROM_OPTIS := true
+TARGET_GCC_VERSION_EXP := 4.9
 
 # inherit from the proprietary version
 -include vendor/motorola/falcon/BoardConfigVendor.mk
