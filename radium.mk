@@ -6,3 +6,4 @@ $(call inherit-product, vendor/radium/config/common_full_phone.mk)
 PRODUCT_RELEASE_NAME := MOTO G
 PRODUCT_NAME := radium_falcon
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
+PRODUCT_BUILD_PROP_OVERRIDES += DEVICE_MAINTAINERS="Sri Harsha (srisurya95)"
